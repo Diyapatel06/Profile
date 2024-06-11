@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(bg\ image.jpg);
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+.profilebox{
+    background: transparent;
+    text-align: center;
+    padding: 40px 90px;
+    color: lightgray;
+    position: relative;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+.menu{
+    width: 25px;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    color: lightblue;
+    cursor: pointer;
+}
+.setting{
+    width: 25px;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    color: lightblue;
+    cursor: pointer;
+}
+.profile{
+    width: 140px;
+    border-radius: 50%;
+    border: lightblue solid 3px;
+    margin-top: 40px;
+}
+.profile-bottom{
+    background-color: rgb(107, 165, 188);
+    color: black;
+    padding-top: 60px 0;
+    margin-right: -40px;
+    margin-left: -40px;
+    border-radius: 10px;
+    height: 70px;
+    width: 250px;
+
+}
+.profile-bottom{
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.down-arrow{
+    width: 25px;
+}
+.profile-btn{
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+.profile-btn:hover{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.socialmedia img{
+    cursor: pointer;
+    margin: 20px 5px;
+    width: 25px;
+}
